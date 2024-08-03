@@ -1,0 +1,61 @@
+.loginContainer{
+    border: 2px solid black;
+    width: 100%;
+    height: 85vh;
+    background-image: url("../Assets/login-bg.gif");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heading{
+    color: #0E8388;
+    font-weight: 900;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 4px 4px rgba(226, 237, 237, 0.5), -1px -1px 1px 1px rgba(41, 43, 42, 0.5),inset 0px 0px 3px 3px rgb(26, 28, 27,.2) 
+}
+.loginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+}
+.loginForm input:focus {
+    outline: none;
+  }
+.loginInput{
+    width: 100%;
+    color: #2C3333;
+    font-size: 18px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+    padding-left: 20px;
+}
+.loginSubmit{
+    margin-top: 40px;
+    border: 0px;
+    height : 40px;
+    width: 420px;
+    color: white;
+    background-color: #0E8388;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 3px 3px rgb(26, 28, 27,.2)   
+}
+.loginSubmit:hover{
+    cursor: pointer;
+    background-color :#0E8388;    
+    box-shadow: 1px 1px 1px 1px rgba(172, 204, 188, 0.9), -1px -1px 1px 1px rgba(172, 204, 188, 0.9),inset 0px 0px 3px 3px rgb(26, 28, 27,.2) 
+}
+.SignUpText{
+    font-size: 20px;
+    margin-top: 5px;
+    color :#0E8388;    
+}
+.SignUpText:hover{
+    color: #7bcdce;
+}

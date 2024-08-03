@@ -1,0 +1,201 @@
+.content {
+    width: 100%;
+    display: flex;
+    background-color: #2C3333;
+    min-height: 100vh;
+    position: relative;
+}
+
+.aside {
+    width: 320px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: wrap;
+    min-height: 100vh;
+    margin-top: 40px;
+    
+}
+
+/* Aside Container */
+.purchaseContainer {
+    color: white;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    z-index: 1;
+    width: 220px;
+    margin: 0px 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #0E8388;
+    box-shadow: inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5), inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+}
+
+.productCount {
+    display: flex;
+    justify-content: space-around;
+}
+
+.listName {
+    margin-bottom: 70px;
+}
+
+.listQty {
+    margin: 0px 20px;
+}
+
+.listAmount {
+    margin-bottom: 70px;
+}
+
+.listContainer {
+    width: 100%;
+    padding: 0px;
+}
+
+.orderSummary {
+    height: 50%;
+    padding: 5px;
+}
+
+.list {
+    margin-top: 5px;
+    overflow: hidden;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    display: flex;
+    border-bottom: 0.5px solid rgb(255, 255, 255);
+
+
+}
+
+.total {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.purchase {
+    margin-top: 10px;
+    border: 0px;
+    height: 40px;
+    width: 100%;
+    color: #2C3333;
+    background-color: #b0dbcd;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 3px 3px rgb(26, 28, 27, .2)
+}
+
+.purchase:hover {
+    box-shadow: 1px 1px 1px 1px rgba(159, 174, 168, 0.5), -1px -1px 1px 1px rgba(159, 174, 168, 0.5), inset 0px 0px 3px 3px rgb(26, 28, 27, .2)
+}
+
+/* Main Container */
+.productContainer {
+    width: 260px;
+    height: 450px;
+    margin: 0px 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #CBE4DE;
+    color: #2C3333;
+    border-radius: 15px;
+    font-size: 22px;
+    box-shadow: inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5), inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+
+}
+
+.productContainer:hover {
+    background-color: #b0dbcd;
+    box-shadow: 1px 1px 2px 2px rgba(70, 77, 75, 0.5), -1px -1px 2px 2px rgba(70, 77, 75, 0.5), inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5), inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+}
+
+.productImage {
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    contain: content;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.productImage img {
+    width: 55%;
+}
+
+.productName {
+    height: 50px;
+
+}
+
+.productAmount {
+    height: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.productCount{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60px;
+    font-weight: bolder;
+}
+.productCount span{
+    margin: 2px;
+}
+.incDec{
+    width: 20px;
+    height: 20px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-size: 26px;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0E8388;
+    box-shadow:  0px 0px 1px 1px rgb(26, 28, 27, .2)
+}
+.incDec:hover{
+    box-shadow: 1px 1px 1px 1px rgba(122, 125, 124, 0.5), -1px -1px 1px 1px rgba(122, 125, 124, 0.5)
+}
+
+.removeFromCart {
+    border: 0px;
+    height: 40px;
+    width: 100%;
+    color: white;
+    background-color: #0E8388;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 3px 3px rgb(26, 28, 27, .2)
+}
+
+.removeFromCart:hover {
+    background-color: #0E8388;
+    box-shadow: 1px 1px 1px 1px rgba(122, 125, 124, 0.5), -1px -1px 1px 1px rgba(122, 125, 124, 0.5), inset 0px 0px 3px 3px rgb(26, 28, 27, .2)
+}
+.spinner{
+    position: absolute;
+    top: 40vh;
+    left: 50vw;
+    transform: translate(-50%,-50%);
+}

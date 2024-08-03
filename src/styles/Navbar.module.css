@@ -1,0 +1,72 @@
+.navContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 80px;
+    margin: 0px;
+    background-color: #0E8388;
+}
+.navList{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.link{
+    text-decoration: none;
+}
+.navButton{
+    color: #fff;
+    position: relative;
+    height: 40px;
+    margin: 0px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.brandName{
+    background-image: url("../Assets/BrandLogo.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 70px;
+    width: 150px;
+}
+.homelogo{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/10473/10473299.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.cartlogo{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/10542/10542620.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.orderlogo{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/10810/10810064.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.loginlogo{
+    height: 40px;
+    width: 40px;
+    background-image: url("https://cdn-icons-png.flaticon.com/128/9436/9436398.png");
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.navHeading{
+    margin-left: 10px;
+    text-decoration: none;
+}
+.navButton:hover{
+    color: #aac9c9;
+}

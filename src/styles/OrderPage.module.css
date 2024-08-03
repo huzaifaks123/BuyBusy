@@ -1,0 +1,71 @@
+.orderContainer{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #2C3333;
+    min-height: 100vh;
+    color: white;
+}
+.date{    
+    font-size: 20PX;
+    color: #0E8388;
+    margin-top: 20px;
+}
+.orderContainer h1{
+    color: #0E8388;
+    font-size: 48px;
+}
+.hr{    
+    border:2px solid #0E8388;
+}
+.tagHr{    
+    border:.5px solid white;
+}
+.listName{
+    text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    width: 800px;
+}
+.listQty{
+    text-overflow: ellipsis;
+    margin: 0px 20px;
+}
+.listAmount{
+    /* border: 2px solid green; */
+    text-overflow: ellipsis;
+    width: 100px;
+    height: 20px;
+    text-align: end;
+}
+.listContainer{
+    padding: 0px;
+    margin:0px 20px;
+    
+}
+.orderSummary{
+    width: 70%;
+    height: 50%;
+    padding: 5px;
+    margin: auto;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    display: flex;
+    width: 100%;
+    display: flex;
+}
+.list h3{
+    color: #0E8388;
+}
+.total{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin:0px 20px;
+}
+.spinner{
+    margin-top: 40vh;
+}

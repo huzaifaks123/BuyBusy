@@ -1,0 +1,193 @@
+.content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    background-color: #2C3333;
+    min-height: 100vh;
+    height: 100%;
+    position: relative;
+}
+.manage{
+    background-color: #2C3333;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.filterButton{
+    color: white;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+.mainCheckbox{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+}
+.searchbar{
+    color: #2C3333;
+    font-size: 18px;
+    margin-left: auto;
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+}
+.aside {
+    width: 320px;
+    display: flex;
+    align-items: initial;
+    justify-content: center;
+}
+.main {
+    display: flex;
+    flex-flow: wrap;
+    min-height: 100%;
+
+}
+/* Aside Container */
+.filterContainer {
+    color: white;
+    position: fixed;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    z-index: 1;
+    width: 220px;
+    height: 360px;
+    margin: 0px 10px ;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 15px;
+    font-size: 18px;
+    background-color: #0E8388;
+    box-shadow:inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5),inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+}
+.filterHeading {
+    text-align: center;
+}
+
+.priceRange {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.priceRange h1 {
+    text-align: center;
+    margin: auto;
+}
+.Category {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.priceRange {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.Slider {
+    margin: 10px auto;
+    height: 0px;
+    border: 2px solid #CBE4DE;
+    width: 95%;
+}
+.checkbox{
+    width: 100%;
+}
+.runner {
+    transform: translate(-10px, -10px);
+    width: 220px;
+    
+}
+.spinner {
+    left: 50vw;
+    top: 200px;
+    transform: translateX(-50%);
+    position: absolute;
+    border-radius: 250;
+    color: aliceblue;
+    stroke: 3;
+    visibility: true
+}
+/* Main Container */
+.productContainer{
+    width: 260px;
+    height: 450px;
+    margin: 0px 10px 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color :#CBE4DE;
+    color: #2C3333;
+    border-radius: 15px;
+    font-size: 22px;
+    box-shadow:inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5),inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+    
+}
+.productContainer:hover{
+    background-color :#b0dbcd;    
+    box-shadow: 1px 1px 2px 2px rgba(70, 77, 75, 0.5), -1px -1px 2px 2px  rgba(70, 77, 75, 0.5),inset 2px 2px 4px 4px rgba(122, 125, 124, 0.5),inset -2px -2px 4px 4px rgba(122, 125, 124, 0.5);
+}
+.productImage{
+    height : 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    contain: content;
+    background-color: white;
+    border-radius: 10px 10px 0px 0px;
+} 
+.productImage img{
+    width: 55%;
+}
+
+.productName{
+    height : 50px;
+    
+}
+.productAmount{
+    height : 25px;
+    
+}
+.buyNow,.addToCart{
+    border: 0px;
+    height : 40px;
+    width: 100%;
+    color: white;
+    background-color: #0E8388;
+    font-size: 22px;
+    border-radius: 10px;
+    box-shadow:inset 0px 0px 3px 3px rgb(26, 28, 27,.2)   
+}
+.buyNow:hover,.addToCart:hover{
+    cursor: pointer;
+    background-color :#0E8388;    
+    box-shadow: 1px 1px 1px 1px rgba(122, 125, 124, 0.5), -1px -1px 1px 1px rgba(122, 125, 124, 0.5),inset 0px 0px 3px 3px rgb(26, 28, 27,.2) 
+}
+.buyNow:active,.addToCart:active{
+    background-color :#0E8388;
+    color: #e0dbdb;    
+    box-shadow:inset 0px 0px 3px 3px rgb(26, 28, 27,.2)   
+}
+.notFound{
+    display: flex;
+    justify-content: center;
+    background-color: #2C3333;
+    height: 150vh;
+    margin: auto;
+    color: white;
+    font-size: 50px;
+}
